@@ -12,7 +12,7 @@ import urllib
 def grab_json(url, spoof):
 
     if spoof:
-        request = urllib.request.urlopen()
+        request = urllib
     raw_url_data = urllib.urlopen(url).read()
     return loads(raw_url_data)
 
